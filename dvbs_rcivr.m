@@ -10,7 +10,7 @@ filePath    = 'satData';
 fileFormat  = 'float';
 OutputFile  = 'MPEG_OUTPUT.ts';
 rc_beta     = 0.35;
-SPS         = 2;             %% system samples per symbol
+SPS         = 2;             %% internal system SPS - dont change this
 plotRequest = true;
 %% check inputs
 fid  = fopen(filePath,'r');
