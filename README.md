@@ -6,3 +6,5 @@ the input is a DVB-S signal log, captured by an SDR
 
 
 the output is MPEG.ts data, written to a file which can be furture processed by softwares like ffmpeg to demultiplex channels.
+
+* in case you want to run the viterbi decoder on gpu, please use dvbs_rcivr_gpu.m
